@@ -3209,7 +3209,6 @@
 				}
 
 		}
-	.blogclass{
-		background-image: 'images/pic05.jpg';
-		background-color: black;
+	.blog{
+		background-image: url(images/pic03.jpg);
 	}
