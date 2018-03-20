@@ -2,85 +2,29 @@
 <html>
 <head>
     <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="main.css">
+    
 <meta name="viewport" content="width=device-width, initial-scale=1">
     
     
 <script src="https://use.fontawesome.com/73ff2c4ab2.js"></script>
-<style>
-    @import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto+Condensed:700|Montserrat');
-    .fa{
-        color:white;
-    }
-body {
+    <style>
+    body {
     font-family: "Lato", sans-serif;
-    background-image: url('images/background.gif');
-background-size: cover;
-}
-    .icon{
-        display: inline-block;
-        color:white;
-    }
-
-.sidenav {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 200px;
-}
-
-.sidenav a {
-    padding: 10px 8px 6px 40px;
-    text-decoration: none;
-    font-size: 15px;
-    color: #818181;
-    display: block;
-    text-align: left;
-    font-family: 'Quicksand', sans-serif;
     
-}
-h1{
-        font-family: 'Roboto Condensed';
-        color: #FFF;
-    font-size: 100px;
-    }
-h2{
-        font-family: 'Roboto Condensed';
-        color: #FFF;
-    font-size: 50px;
-    }
-.sidenav a:hover {
-    color: #87CEFA;
-}
-    p{
-        color:aliceblue;
-        font-size: 15px;
-        font-family: 'Montserrat';
-    }
-.main {
-    margin-left: 600px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-}
+    background-image: url('images/background2.jpg');
+background-size: cover;
+}</style>
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
-</style>
 </head>
 <body>
 
 <div class="sidenav">
-  <a href="#Home">HOME</a>
-  <a href="about.html">ABOUT ME</a>
+  <a href="/" ><strong>HOME</strong></a>
+  <a href="aboutme.html">ABOUT ME</a>
   <a href="skills.html">SKILLS</a>
-  <a href="#projects.html">PROJECTS</a>
-  <a href="#contact.html">CONTACT</a>
+  <a href="projects.html">PROJECTS</a>
+  <a href="contact.html">CONTACT</a>
       
 
 <a class="btn btn-default" href="path/to/settings" aria-label="Settings">
@@ -100,7 +44,8 @@ h2{
 <div class="main">
     <br>
     <br>
-  <h1>     Hi,</h1>
+  <h1 onmouseover="this.style.fontColor='blue'" onmouseout="this.style.fontColor='white'">     Hi,</h1>
+    
   <h2>I'm Christina</h2>
   <p>Second Year Student @ University of Virginia</p>
     
