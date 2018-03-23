@@ -4,17 +4,30 @@
     <link rel="icon" type="image/png" href="images/logo.png">
     <link rel="stylesheet" href="main.css">
     
+    
 <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    
+<script src="typing.js"></script>    
 <script src="https://use.fontawesome.com/73ff2c4ab2.js"></script>
     <style>
+        @import url('https://fonts.googleapis.com/css?family=Nunito');
     body {
-    font-family: "Lato", sans-serif;
-    
+       
+    font-family: "Nunito", sans-serif;
+    color: #FFF;
     background-image: url('images/background2.jpg');
+        
 background-size: cover;
-}</style>
+}
+        .main{
+             line-height: 0px;
+             padding: 250px 0;
+          text-align: center;   
+        }
+        .name{
+            font-size: 100px;
+        }
+    </style>
 
 </head>
 <body>
@@ -44,12 +57,13 @@ background-size: cover;
 <div class="main">
     <br>
     <br>
-  <h1 onmouseover="this.style.fontColor='blue'" onmouseout="this.style.fontColor='white'">     Hi,</h1>
+
     
-  <h2>I'm Christina</h2>
-  <p>Second Year Student @ University of Virginia</p>
+  <h2 class = "name">Christina Wei </h2>
+    I am <span class="typewrite" data-period="2000" data-type='[ "a student", "creative.", "a daughter", "a sister" ]'>
+    <span class="wrap"></span> </span>
     
 </div>
-     
+    
 </body>
 </html> 
