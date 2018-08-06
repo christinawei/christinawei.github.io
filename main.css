@@ -13,6 +13,11 @@
     background-image: url("Background2.jpg");
     background-size:cover;
 }
+#page4{
+     height:700px;
+    background-image: url("Background3.jpg");
+    background-size:cover;
+}
 #main2{overflow:hidden;}
 .item1 { grid-area: left; }
 .item2 { grid-area: right; }
