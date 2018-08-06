@@ -1,0 +1,62 @@
+
+    @import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto+Condensed:700|Montserrat');
+    .fa{
+        color:white;
+    }
+
+    .icon{
+        display: inline-block;
+        color:white;
+    }
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 200px;
+}
+
+.sidenav a {
+    padding: 10px 8px 6px 40px;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+h1{
+        font-family: 'Roboto Condensed';
+        color: #FFF;
+    font-size: 100px;
+    }
+h2{
+        font-family: 'Roboto Condensed';
+        color: #FFF;
+    font-size: 50px;
+    }
+.sidenav a:hover {
+    color: #87CEFA;
+}
+    p{
+        color:aliceblue;
+        font-size: 15px;
+        font-family: 'Montserrat';
+    }
+.main {
+    margin-left: 600px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
