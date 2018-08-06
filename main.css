@@ -1,6 +1,6 @@
 #page1{
     height:800px;
-    background-image: url("Background.jpg");
+    background-image: url("images/Background.jpg");
     background-size:cover;
     vertical-align: middle;
     line-height:650px;
@@ -10,12 +10,12 @@
 }
 #page2{
      height:900px;
-    background-image: url("Background2.jpg");
+    background-image: url("images/Background2.jpg");
     background-size:cover;
 }
 #page4{
-     height:700px;
-    background-image: url("Background3.jpg");
+     height:900px;
+    background-image: url("images/Background3.jpg");
     background-size:cover;
 }
 #main2{overflow:hidden;}
